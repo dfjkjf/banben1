@@ -32,3 +32,19 @@ Github，点击右上角头像旁边的倒三角
 $ ssh -T git@github.com
       修改git的remote url：git remote -v 查看远程地址，$ git remote set-url origin git@github.com:account/project.git
 
+5.Git与Github：添加远程库从Github中下载文件
+
+
+    $ git remote add origin git@github.com:.../first_git.git  #连接远程库和版本库
+1
+    $ git push origin master    #将版本库的内容推到远程库
+
+    
+$ git clone git@github.com:.../learngit.git  #从远程库中克隆
+————————————————
+
+载库的时候只下载最新的那个库，可以使用这个命令：
+git clone git仓库地址 --depth=1
+这样就只下载到最新版本，而不是带有全部历史版本的仓库。
+
+海军上将光之翼
