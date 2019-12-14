@@ -49,3 +49,5 @@ git clone git仓库地址 --depth=1
 
 
 海军上将光之翼
+
+http://rogerdudler.github.io/git-guide/index.zh.html
