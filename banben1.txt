@@ -47,4 +47,5 @@ $ git clone git@github.com:.../learngit.git  #从远程库中克隆
 git clone git仓库地址 --depth=1
 这样就只下载到最新版本，而不是带有全部历史版本的仓库。
 
+
 海军上将光之翼
