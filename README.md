@@ -1,4 +1,4 @@
-# banben1
+# GitHelp
 1.设置一下用户名和邮箱
     $ git config --global user.name "your name"
     $ git config --global user.email "your mailbox"
