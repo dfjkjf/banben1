@@ -54,6 +54,7 @@ http://rogerdudler.github.io/git-guide/index.zh.html
 https://blog.csdn.net/Innost/article/details/52583732
 https://www.cnblogs.com/collectionne/p/6617364.html
 https://blog.csdn.net/flycatdeng/article/details/82665041
+https://www.cnblogs.com/pugang/category/327179.html
 
 1.开放扩展程序项目，方便用户自定义插件
       由于VS功能的不断完善，VS集成的功能也越来越多，但是再多的功能也无法满足所有用户的特定需求，VS提供的扩展程序项目正好满足了这种需求。用户可以根据需要，设计满足自己需求的功能，然后通过扩展项目可以很容易地集成到VS中
