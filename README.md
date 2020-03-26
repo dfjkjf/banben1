@@ -37,7 +37,7 @@
 ## 变基
 1. 组长给小A和小B分配了任务，同时自己也在master上开发，当组长merge小A小B分支时，会把AB的commitID添加到自己新增的commit后面
 `$ git rebase master`
-2. 会发生冲突，解决完后 `$ git add .`放入staged区，然后继续下一个节点的rebase $ git rebase --continue`
+2. 会发生冲突，解决完后 `$ git add .`放入staged区，然后继续下一个节点的rebase `$ git rebase --continue`
 
 ## 创建SSH密钥并更新至Github
 前文我们已经讲过了如何在本地上使用Git，但是Git最厉害的地方并不在于从本地使用，而是在于其支持协同工作，以及Github的简单上传和下载。
