@@ -1,5 +1,5 @@
 # GitHelp
-##git初始化
+## git初始化
 1. git安装：`$ sudo apt-get install git`
 2. 配置用户名邮箱：`$ git config --global user.name "lxr"   $ git config --global user.email "980436373@qq.com"`
 3. 查看配置：`$ git config --list
@@ -23,7 +23,7 @@
 1. master完成框架开发，吩咐小A和小B各自完成模块a、b开发
 2. 小A以master为模板开辟新分支xiaoAworks，并完成模块a开发
 3. 小B以master为模板开辟新分支xiaoBworks，并完成模块b开发
-4. master合并小A和小B的分支，`$ git merge xiaoAworks $ git merge xiaoBworks`
+4. master合并小A和小B的分支，`$ git merge xiaoAworks` `$ git merge xiaoBworks`
 5. 解决冲突
 
 ##远端仓库
@@ -32,14 +32,14 @@
    + 第一次会提示远端没有你的分支，可以在远端设置新分支并提交 `$ git push --set-upstream origin <branchname>`
 3. 组长拉取远程仓库信息 `$ git fetch`
    + 发现新增分支xiaoAworks，于是 `$ git checkout -b xiaoAworks origin xiaoAworks`
-      + 再次发现此分支变更时直接 `$ git pull`
+   + 再次发现此分支变更时直接 `$ git pull`
 
 ##变基
 1. 组长给小A和小B分配了任务，同时自己也在master上开发，当组长merge小A小B分支时，会把AB的commitID添加到自己新增的commit后面
 `$ git rebase master`
 2. 会发生冲突，解决完后 `$ git add .`放入staged区，然后继续下一个节点的rebase $ git rebase --continue`
 
-##创建SSH密钥并更新至Github
+## 创建SSH密钥并更新至Github
 前文我们已经讲过了如何在本地上使用Git，但是Git最厉害的地方并不在于从本地使用，而是在于其支持协同工作，以及Github的简单上传和下载。
 初次使用Git来配置密钥一般需要三步：
 1. 生成密钥：生成密钥的语句如下`$ ssh-keygen -t rsa -C "email@youremail.com"` `vim ~/.ssh/id_rsa.pub`
