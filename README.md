@@ -1,3 +1,5 @@
+**开发的本职工作永远是完成迭代需求，修复bug，研究新框架新组件这类工作。**
+------
 # GitHelp
 ## git初始化
 1. git安装：`$ sudo apt-get install git`
@@ -29,7 +31,7 @@
 ## 远端仓库
 1. `$ git clone` 小A和小B都下载远端仓库
 2. 小A开发模块本地分支xiaoAworks推送至远端仓库 `$ git push`
-   + 第一次会提示远端没有你的分支，可以在远端设置新分支并提交 `$ git push --set-upstream origin <branchname>`
+   + 第一次会提示远端没有你的分支，可以在远端设置新分支并提交 `$ git push --set-upstream origin <branchname>`也可以用这种方法提交到新仓库新分支(git remote查看连接到的远程分支，git branch -a查看所有分支)
 3. 组长拉取远程仓库信息 `$ git fetch`
    + 发现新增分支xiaoAworks，于是 `$ git checkout -b xiaoAworks origin xiaoAworks`
    + 再次发现此分支变更时直接 `$ git pull`
@@ -48,7 +50,7 @@
 4. 修改git的remote url：git remote -v 查看远程地址，`$ git remote set-url origin git@github.com:account/project.git`
 5. Git与Github：添加远程库从Github中下载文件
 ```
-$ git remote add origin git@github.com:.../first_git.git  #连接远程库和版本库
+$ git remote add origin(自命名) git@github.com:.../first_git.git  #连接远程库和版本库
 $ git push origin master    #将版本库的内容推到远程库    
 $ git clone git@github.com:.../learngit.git  #从远程库中克隆
 ```
