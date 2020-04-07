@@ -1,3 +1,5 @@
+**开发的本职工作永远是完成迭代需求，修复bug，研究新框架新组件这类工作。**
+------
 # GitHelp
 ## git初始化
 1. git安装：`$ sudo apt-get install git`
